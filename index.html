@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>じゃんけんゲーム</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Stein Saks Papir</h1>
+  <div class="container"> 
+    <img src="./images/Mainpic.jpg" id="pics">
+    <h2 id="pic-title">Først begynner vi med stein...</h2>
+  </div>
+  <div id="hand-type">
+    <button id="rock" value="0" onclick="getImage()">Stein</button>
+    <button id="scissors" value="1" onclick="getImage()">Saks</button>
+    <button id="paper" value="2" onclick="getImage()">Papir</button>
+    <button id="restart">Du får ett forsøk til.</button>
+  </div>
+  <div>
+    <div id="result-container">
+      <h2 id="result"></h2>
+      <h2 id="result-content"></h2>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>

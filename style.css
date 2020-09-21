@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+}
+
+.container {
+  border: 1px solid black;
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+
+
+img {
+  width: 400px;
+  height: 300px;
+  margin: 30px 40px 0 40px;
+}
+
+
+button {
+  margin-left: 40px;
+}
+ #result-content {
+   color: red;
+ }
+
